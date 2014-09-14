@@ -5,16 +5,23 @@ tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-Hi, this is my blog, where some stuff I am learning are shared. I am a student at Imperial College London now and my major is Computing. I am programming in Java and Python and I am now studying Cloud Computing and Virtualisation, which can be seen from my blogs.
+Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
-## Recent Blogs
+Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
-{% for post in site.posts %}
-  <li>
-    <a href="{{ post.url }}"> {{ post.title }} </a>
-    {{ post.excerpt }}
-  </li>
-{% endfor %}
+## Update Author Attributes
+
+In `_config.yml` remember to specify your own data:
+    
+    title : My Blog =)
+    
+    author :
+      name : Name Lastname
+      email : blah@email.test
+      github : username
+      twitter : username
+
+The theme should reference these variables whenever needed.
     
 ## Sample Posts
 

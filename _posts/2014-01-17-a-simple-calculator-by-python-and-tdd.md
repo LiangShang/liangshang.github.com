@@ -4,13 +4,14 @@ title: "A Simple Calculator by Python and TDD"
 description: ""
 category: 
 tags: [python, TDD]
+excerpt: A article about writing TDD code in Python with a tiny example
 ---
 {% include JB/setup %}
 
 In this article, I will implement a very simple calculator using python and TDD. if you do not know what is TDD, please refer to [here](http://en.wikipedia.org/wiki/Test-driven_development). BTW, my python version is 2.7
 
 First of all, I write a failed test using unittest module in python, which is just like this:
-{% highlight pycon %}
+{% highlight ruby %}
 import unittest
 
 class CalculatorTest(unittest.TestCase):
