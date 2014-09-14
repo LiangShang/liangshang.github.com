@@ -1,39 +1,31 @@
 ---
 layout: page
-title: Liang's Blog
-tagline: Supporting tagline
+title: Home Page
 ---
 {% include JB/setup %}
 
-Hi, this is my blog, where some stuff I am learning are shared. I am a student at Imperial College London now and my major is Computing. I am programming in Java and Python and I am now studying Cloud Computing and Virtualisation, which can be seen from my blogs.
+## Introduction
+
+Hi, this is my blog, where I share things that I am learning and have learned. I got my Master on Computing in late 2014 and in the blog the main topic is about computing and programming.
+
 
 ## Recent Blogs
 
-{% for post in site.posts %}
-  <li>
-    <a href="{{ post.url }}"> {{ post.title }} </a>
-    {{ post.excerpt }}
-  </li>
-{% endfor %}
-    
-## Sample Posts
-
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
-
 <ul class="posts">
   {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+
+    {% if forloop.index == 4 %}
+      {% break %}
+    {% endif %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+    <br/>
+    {{ post.excerpt }}
+    </li>
   {% endfor %}
 </ul>
 
-## To-Do
+## Advertisement
 
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+<h3>Need A Job</h3> I just graduated as a Master and now am looking for a job as a **Software Engineer** in London. My favourate language is Java and Python and you can find my [Resume](https://github.com/LiangShang/C.V./blob/master/Liang's%20CV.pdf?raw=true). To work in London, I also need a sponsor, so I will really appreciate it if anyone is able to give me an Internal Referral :) 
 
 
