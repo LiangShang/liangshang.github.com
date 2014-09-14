@@ -17,10 +17,11 @@ Hi, this is my blog, where I share things that I am learning and have learned. I
     {% if forloop.index == 4 %}
       {% break %}
     {% endif %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+    <li><b><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></b>
     <br/>
-    {{ post.excerpt }}
+    {{ post.excerpt }} 
     </li>
+    <br/>
   {% endfor %}
 </ul>
 
