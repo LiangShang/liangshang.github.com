@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MaQEMU and KVM Introduction"
+title: "QEMU and KVM Introduction"
 description: ""
 category: 
 tags: []
