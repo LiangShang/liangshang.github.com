@@ -6,7 +6,7 @@ title: Home Page
 
 ## Introduction
 
-Hi, this is my blog, where I share things that I am learning and have learned. I got my Master on Computing in late 2014 and in the blog the main topic is about computing and programming.
+Hi, this is my blog, where I share things that I am learning and have learned recently. I will try my best to write English blogs and sometimes also some Chinese ones...
 
 
 ## Recent Blogs
@@ -25,8 +25,8 @@ Hi, this is my blog, where I share things that I am learning and have learned. I
   {% endfor %}
 </ul>
 
-## Advertisement
+## <del>Advertisement</del>
 
-<h3>Need A Job</h3> I just graduated as a Master and now am looking for a job as a **Software Engineer** in London. My favourate language is Java and Python and you can find my [Resume](https://github.com/LiangShang/C.V./blob/master/Liang's%20CV.pdf?raw=true). To work in London, I also need a sponsor, so I will really appreciate it if anyone is able to give me an Internal Referral :) 
+<h3>Not Looking for a Job now</h3> I am now working in Shanghai, China as a **Software Engineer**. I am writing Java programmes and maintain Elasticsearch in my company. And you can find my [Resume](https://github.com/LiangShang/C.V./blob/master/Liang's%20CV.pdf?raw=true).
 
 
