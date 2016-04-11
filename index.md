@@ -4,10 +4,14 @@ title: Home Page
 ---
 {% include JB/setup %}
 
+&nbsp;
+
 ## Introduction
 
-Hi, this is my blog, where I share things that I am learning and have learned recently. I will try my best to write English blogs and sometimes also some Chinese ones...
+Hi, this is my blog, where I share things that I am learning and have learned recently. I will try my best to write English blogs and sometimes also some Chinese ones.
 
+
+&nbsp;&nbsp;&nbsp;
 
 ## Recent Blogs
 
@@ -25,8 +29,10 @@ Hi, this is my blog, where I share things that I am learning and have learned re
   {% endfor %}
 </ul>
 
-## <del>Advertisement</del>
+&nbsp;&nbsp;
 
-<h3>Not Looking for a Job now</h3> I am now working in Shanghai, China as a **Software Engineer**. I am writing Java programmes and maintain Elasticsearch in my company. And you can find my [Resume](https://github.com/LiangShang/C.V./blob/master/Liang's%20CV.pdf?raw=true).
+## Who am I?
+
+I am now working in Shanghai, China as a **Software Engineer**. I am writing Java programmes and maintain Elasticsearch in my company. And you can find my [Resume](https://github.com/LiangShang/C.V./blob/master/Liang's%20CV.pdf?raw=true).
 
 
