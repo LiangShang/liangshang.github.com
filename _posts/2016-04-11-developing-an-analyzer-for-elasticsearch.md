@@ -27,6 +27,34 @@ This post introduces how to write a customer analyzer for Elasticsearch. Firstly
 **Fullfill the plugin class 实现之前指定的插件类**
 This plugin class must implement the interface `org.elasticsearch.plugins.AbstractPlugin`.
 
+for example as the code 
+
+    package org.elasticsearch.plugin.analysis.pinyin;
+
+    import org.elasticsearch.index.analysis.AnalysisModule;
+    import org.elasticsearch.index.analysis.PinyinAnalysisBinderProcessor;
+    import org.elasticsearch.plugins.AbstractPlugin;
+
+    
+    public class AnalysisPinyinSegmentationPlugin extends AbstractPlugin {
+
+        @Override
+        public String name() {
+            return "analysis-pinyin-segmentation";
+        }
+
+        @Override
+        public String description() {
+            return "Chinese to Pinyin convert support";
+        }
+
+        public void onModule(AnalysisModule module) {
+            module.addProcessor(new PinyinAnalysisBinderProcessor());
+        }
+    }
+
+The class extends the AbstractClass `AbstractPlugin` and fullfill the following methods, altogether with the most important one named `onModule` , the method that add our custom plugin to the ES. 
+
 TO BE CONTINUED....
 
  
