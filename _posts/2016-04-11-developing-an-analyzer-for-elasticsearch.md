@@ -55,6 +55,21 @@ for example as the code
 
 The class extends the AbstractClass `AbstractPlugin` and fullfill the following methods, altogether with the most important one named `onModule` , the method that add our custom plugin to the ES. 
 
+From the file, we found that we need to write the class named `PinyinAnalysisBinderProcessor`. Let's find what is in that class.
+
+    package org.elasticsearch.index.analysis;
+
+
+    public class PinyinAnalysisBinderProcessor extends AnalysisModule.AnalysisBinderProcessor {
+
+        @Override
+        public void processTokenFilters(TokenFiltersBindings tokenFiltersBindings) {
+            tokenFiltersBindings.processTokenFilter("pinyin_segment", PinyinTokenFilterFactory.class);
+        }
+    }
+
+So this BinderProcessor is more like a register that binds the token filter to ES instance by registering a Factory.
+
 TO BE CONTINUED....
 
  
