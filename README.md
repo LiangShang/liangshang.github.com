@@ -13,6 +13,11 @@ since I found that I cannot insist in writing this blogs, I made up a plan that 
 * search engines 
 * machine learning
 
+### What is on my list?
+* elasticsearch analyzer 
+* pinyin segmentation
+* Java memory model
+
 
 
 ## License
