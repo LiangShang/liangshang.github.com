@@ -18,6 +18,7 @@ since I found that I cannot insist in writing this blogs, I made up a plan that 
 * pinyin segmentation
 * Java memory model
 * JVM, such as GC and others
+* machine learning
 
 
 
