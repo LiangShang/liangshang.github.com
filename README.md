@@ -12,6 +12,7 @@ since I found that I cannot insist in writing this blogs, I made up a plan that 
 * algorithms
 * search engines 
 * machine learning
+* miscs
 
 ### What is on my list?
 * elasticsearch analyzer 
