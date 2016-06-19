@@ -21,6 +21,7 @@ since I found that I cannot insist in writing this blogs, I made up a plan that 
 * JVM, such as GC and others
 * machine learning
 
+## now the content are moved to issues
 
 
 ## License
