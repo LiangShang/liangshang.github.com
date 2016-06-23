@@ -13,21 +13,13 @@ Hi, this is my blog, where I share things that I am learning and have learned re
 
 &nbsp;&nbsp;&nbsp;
 
-## Recent Blogs
+## Blogs
+&nbsp;&nbsp;
 
-<ul class="posts">
-  {% for post in site.posts %}
+All my blogs are now resides in [Here](https://github.com/LiangShang/liangshang.github.com/issues), in the format of Github Issues.
 
-    {% if forloop.index == 4 %}
-      {% break %}
-    {% endif %}
-    <li><b><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></b>
-    <br/>
-    {{ post.excerpt }} 
-    </li>
-    <br/>
-  {% endfor %}
-</ul>
+
+
 
 &nbsp;&nbsp;
 
