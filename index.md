@@ -16,7 +16,7 @@ Hi, this is my blog, where I share things that I am learning and have learned re
 ## Blogs
 &nbsp;&nbsp;
 
-All my blogs are now resides in [Here](https://github.com/LiangShang/liangshang.github.com/issues), in the format of Github Issues.
+### All my blogs are now resides in [Here](https://github.com/LiangShang/liangshang.github.com/issues), in the format of Github Issues.
 
 
 
