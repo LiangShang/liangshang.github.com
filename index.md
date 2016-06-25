@@ -10,6 +10,15 @@ title: Home Page
 
 Hi, this is my blog, where I share things that I am learning and have learned recently. I will try my best to write English blogs and sometimes also some Chinese ones.
 
+我在博客上主要会写一些跟软件工程和计算机有关的东西。算是自己的一些心得体会吧。主要的topic大概如下：
+
+### Main Topics
+* java
+* algorithms
+* search engines 
+* machine learning
+* miscs
+
 
 &nbsp;&nbsp;&nbsp;
 
