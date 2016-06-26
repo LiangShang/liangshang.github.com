@@ -10,14 +10,9 @@ title: Home Page
 
 Hi, this is my blog, where I share things that I am learning and have learned recently. I will try my best to write English blogs and sometimes also some Chinese ones.
 
-我在博客上主要会写一些跟软件工程和计算机有关的东西。算是自己的一些心得体会吧。主要的topic大概如下：
+我在博客上主要会写一些跟软件工程和计算机有关的东西。算是自己的一些心得体会吧。希望可以坚持下来！加油吧！
 
-### Main Topics
-* java
-* algorithms
-* search engines 
-* machine learning
-* miscs
+
 
 
 &nbsp;&nbsp;&nbsp;
@@ -25,9 +20,17 @@ Hi, this is my blog, where I share things that I am learning and have learned re
 ## Blogs
 &nbsp;&nbsp;
 
-### All my blogs are now resides in [Here](https://github.com/LiangShang/liangshang.github.com/issues), in the format of Github Issues.
+All my blogs are now resides in **[Here](https://github.com/LiangShang/liangshang.github.com/issues)**, in the format of Github Issues. The topics are in the below.
 
 
+<br/>
+**Main Topics**
+ 
+* java
+* algorithms
+* search engines 
+* machine learning
+* miscs
 
 
 &nbsp;&nbsp;
