@@ -4,8 +4,10 @@
 ## What is this?
 this is the so-called "source code" of my blog that resides in [liangshang.github.io](http://liangshang.github.io), where I am writing something in my mind.
 
-## Plans
-since I found that I cannot insist in writing this blogs, I made up a plan that deliver at least one blog per week, namely Thursday, so that I have 3 days to complete.
+## Moved to [ISSUE](https://github.com/LiangShang/liangshang.github.com/issues)
+
+Now the Contents Are Moved to Issues, pls Visit [ISSUE](https://github.com/LiangShang/liangshang.github.com/issues) Tab
+
 
 ## Main Topics
 * java
@@ -21,7 +23,14 @@ since I found that I cannot insist in writing this blogs, I made up a plan that 
 * JVM, such as GC and others
 * machine learning
 
-## now the content are moved to issues pls visit issue tab
+### Following topic
+
+- elasticsearch rescore
+- elasticsearch postFilter
+- JVM GC 
+
+
+
 
 
 ## License
