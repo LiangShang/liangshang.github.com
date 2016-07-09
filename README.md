@@ -26,7 +26,6 @@ Now the Contents Are Moved to Issues, pls Visit [ISSUE](https://github.com/Liang
 ### Following topic
 
 - elasticsearch rescore
-- elasticsearch postFilter
 - JVM GC 
 
 
