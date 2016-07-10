@@ -22,6 +22,7 @@ Now the Contents Are Moved to Issues, pls Visit [ISSUE](https://github.com/Liang
 * Java memory model
 * JVM, such as GC and others
 * machine learning
+* maybe some solutions of exercises from SICP
 
 ### Following topic
 
