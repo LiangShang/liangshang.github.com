@@ -21,6 +21,7 @@ Now the Contents Are Moved to Issues, pls Visit [ISSUE](https://github.com/Liang
 * pinyin segmentation
 * Java memory model
 * JVM, such as GC and others
+* maybe some course reviews 
 * machine learning
 * maybe some solutions of exercises from SICP
 
