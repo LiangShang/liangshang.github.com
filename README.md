@@ -28,7 +28,6 @@ Now the Contents Are Moved to Issues, pls Visit [ISSUE](https://github.com/Liang
 ### Following topic
 
 - elasticsearch rescore
-- JVM GC 
 - elasticsearch analyzer plugin
 
 
