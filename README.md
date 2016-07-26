@@ -14,7 +14,6 @@ Now the Contents Are Moved to Issues, pls Visit [ISSUE](https://github.com/Liang
 * algorithms
 * search engines 
 * machine learning
-* miscs
 
 ### What is on my list?
 * elasticsearch analyzer 
