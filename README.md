@@ -33,6 +33,7 @@ Now the Contents Are Moved to Issues, pls Visit [ISSUE](https://github.com/Liang
 - java nio
 - MySQL locks
 - spring aop
+- elasticsearch compression
 
 
 
