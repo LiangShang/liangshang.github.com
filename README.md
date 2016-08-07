@@ -35,7 +35,6 @@ Now the Contents Are Moved to Issues, pls Visit [ISSUE](https://github.com/Liang
 - spring aop
 - elasticsearch compression
 - church 计数
-- sicp answers
 
 
 
